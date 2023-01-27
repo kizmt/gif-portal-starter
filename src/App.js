@@ -1,4 +1,5 @@
 import twitterLogo from './assets/twitter-logo.svg';
+import BobRossLogo from './assets/bobby.svg';
 import './App.css';
 
 // Constants
@@ -10,10 +11,11 @@ const App = () => {
     <div className="App">
       <div className="container">
         <div className="header-container">
-          <p className="header">🖼 GIF Portal</p>
+          <p className="header">👨‍🎨 Bob Ross Portal</p>
           <p className="sub-text">
-            View your GIF collection in the metaverse ✨
+            View your Bob Ross image collection in the metaverse ✨
           </p>
+          <img alt="Bobby Ross" className="bob-ross" src={BobRossLogo} />
         </div>
         <div className="footer-container">
           <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />

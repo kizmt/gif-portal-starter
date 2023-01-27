@@ -1,7 +1,7 @@
 .App {
   height: 100vh;
-  background-color: #1a202c;
-  overflow: auto;
+  background-image: url(assets/summit.svg);
+  overflow: none;
   text-align: center;
 }
 
@@ -25,12 +25,13 @@
   margin: 0;
   font-size: 50px;
   font-weight: bold;
-  color: white;
+  color: black;
 }
 
 .sub-text {
-  font-size: 25px;
-  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
 }
 
 .gradient-text {
